@@ -33,8 +33,8 @@
     </div>
     </header>
 
-    <section>
-        <form action="https://formspree.io/f/xrgdlwro" method="POST">
+    <section id="contform">
+        <form action="https://formspree.io/f/xrgdlwro" method="POST" id="formCod">
             <label>
                 Su email:
                 <input type="email" name="email">
@@ -43,6 +43,18 @@
                 Cuentenos sobre usted y su colección:
                 <textarea name="message"></textarea>
             </label>
+
+            
+            <p>
+                Que monedas colecciona?
+                <input type="text" name="tipomoneda" list="listamonedas">
+            </p>
+            <datalist id="listamonedas">
+                <option>Romanas</option>
+                <option>Griegas</option>
+                <option>Antiguas</option>
+                <option>Otras</option>
+            </datalist>
 
             <!-- your other form fields go here -->
             <button type="submit">Send</button>
