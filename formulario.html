@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=estilosindex.css />
     <title>CoDosForm</title>
+    <style> * {box-sizing: border-box;} </style>
 </head>
 
 <body>
@@ -28,27 +29,28 @@
         <header>
             <div id="header">
                 <h1 class="titulo"> Numismática </h1>
-                <h1 class="subtitulos"> Hágase socio </h1>
+                <h1 class="subtitulos"> Comunidad </h1>
             </div>
     </div>
     </header>
 
     <section id="contform">
-        <form action="https://formspree.io/f/xrgdlwro" method="POST" id="formCod">
-            <label>
-                Su email:
-                <input type="email" name="email">
-            </label>
-            <label>
-                Cuentenos sobre usted y su colección:
-                <textarea name="message"></textarea>
-            </label>
-
+        <form action="https://formspree.io/f/xrgdlwro" method="POST" class="formu">
             
-            <p>
-                Que monedas colecciona?
-                <input type="text" name="tipomoneda" list="listamonedas">
-            </p>
+            <h1 class="formu__tit">Hágase Socio</h1><br><br>
+            
+            <input type="text" name="Nombres" class="formu__input">
+            <label for="" class="formu__la">Nombres</label> 
+            <input type="text" name="Apellido" class="formu__input">
+            <label for="" class="formu__la">Apellido</label>
+            <input type="text" name="Ciudad" class="formu__input">
+            <label for="" class="formu__la">Ciudad</label>
+            <input type="email" name="Email" class="formu__input">
+            <label for="" class="formu__la">Email</label>
+            <input type="text" name="TiposDeMonedas" class="formu__input" list="listamonedas">
+            <label for="" class="formu__la">Tipo de monedas que colecciona</label>
+
+
             <datalist id="listamonedas">
                 <option>Romanas</option>
                 <option>Griegas</option>
@@ -56,10 +58,13 @@
                 <option>Otras</option>
             </datalist>
 
-            <!-- your other form fields go here -->
-            <button type="submit">Send</button>
+          <!--  <input type="submit" class="formu__sub"> -->
+
+           <button type="submit" class="formu__sub">Enviar</button>
+
         </form>
     </section>
+    <script src="formu.js"></script>
 </body>
 
 <script>
