@@ -6,8 +6,268 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colecciones</title>
     <link rel="stylesheet" href=estiloscoleccion.css />
+    <!-- iconos Font Awesome -->
+    <script src="https://kit.fontawesome.com/9514dd5057.js" crossorigin="anonymous"></script>
+    <!-- esto esta vinculado a animate.style -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/perseo.png" type="image/png" sizes="16x16">
 </head>
+
+
+
 <body>
+    <nav>
+        <div class="menu"> <!-- menu desplegable  -->
+            <div id="myNav" class="overlay">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                   <div class="overlay-content">
+                       <a href="index.html">Inicio</a>
+                       <a href="historia.html">Historia</a>
+                       <a href="Colecciones.html">Colecciones</a>
+                       <a href="romanas.html">Coleccionistas</a>
+                       <a href="antiguas.html">Artículos y publicaciones</a>
+                       <a href="formulario.html">Hágase socio</a>
+                   </div>
+               </div>
+           <span style="font-size:1.5rem;cursor:pointer;color:white;" onclick="openNav()">&#9776; menu </span>
+                   <!-- fin del menu desplegable -->
     
+    </nav>
+
+
+    
+            <div class="box">
+                <div class="historia">
+                    <div class="texto">
+                        <h1>Galeria de Colección</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sagittis ligula. Sed id vehicula enim. Etiam risus urna, aliquet in elit eget, tincidunt consectetur mauris. Curabitur pellentesque ante venenatis tortor fermentum placerat. In sed sodales nibh. Phasellus metus dui, tempor vel venenatis eget, porttitor in leo. Praesent porta orci at hendrerit pulvinar. Fusce pretium, tortor id aliquam ultrices, dui risus tempor ex, quis dapibus purus purus et justo. Aenean interdum quam eu tincidunt condimentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec non dui dictum, egestas nisl et, posuere ligula. Suspendisse mattis est ullamcorper vehicula pulvinar. Fusce nibh libero, molestie in imperdiet nec, convallis quis odio. Nullam vel fermentum diam. Phasellus a tortor mollis, pellentesque urna at, scelerisque justo. Fusce bibendum mauris erat, vitae facilisis odio semper sed.</p>
+                    </div>               
+                </div>
+                <div class="galeria">
+
+                    
+
+                    <a name="salir" href="" ></a>
+    <div class="contenedor-galeria">
+        <div class="item-galeria">
+            <a href="#img1"><img src="img/galeria1.jpg" alt="" class="img-galeria"></a>
+        </div>
+        <div class="item-galeria">
+            <a href="#img2"><img src="img/galeria2.jpg" alt="" class="img-galeria"></a>
+        </div>
+        <div class="item-galeria"> 
+            <a href="#img3"><img src="img/galeria3.jpg" alt="" class="img-galeria"></a>
+        </div>
+        <div class="item-galeria">
+            <a href="#img4"><img src="img/galeria4.jpg" alt="" class="img-galeria"></a>            
+        </div>
+        <div class="item-galeria">
+            <a href="#img5"><img src="img/galeria5.jpg" alt="" class="img-galeria"></a>
+        </div>
+        <div class="item-galeria">
+            <a href="#img6"><img src="img/galeria6.jpg" alt="" class="img-galeria"></a>   
+        </div>
+        <div class="item-galeria">
+            <a href="#img7"><img src="img/galeria7.jpg" alt="" class="img-galeria"></a>    
+        </div>
+        <div class="item-galeria">
+            <a href="#img8"><img src="img/galeria8.jpg" alt="" class="img-galeria"></a> 
+        </div>
+        <div class="item-galeria">
+            <a href="#img9"><img src="img/galeria9.jpg" alt="" class="img-galeria"></a>
+        </div>
+        <div class="item-galeria">
+            <a href="#img10"><img src="img/galeria10.jpg" alt="" class="img-galeria"></a>   
+        </div>
+        <div class="item-galeria">
+            <a href="#img11"><img src="img/galeria11.jpg" alt="" class="img-galeria"></a>   
+        </div>
+        <div class="item-galeria">
+            <a href="#img12"><img src="img/galeria12.jpg" alt="" class="img-galeria"></a>   
+        </div>
+    </div>
+    <div class="modal" id="img1">
+        <h3>1/12</h3>
+        <div class="imagen">
+            <a href="#img1">&#60;</a>
+            <a href="#img2"><img src="img/galeria1.jpg" alt=""></a>
+            <a href="#img2">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+    <div class="modal" id="img2">
+        <h3>2/12</h3>
+        <div class="imagen">
+            <a href="#img1">&#60;</a>
+            <a href="#img3"><img src="img/galeria2.jpg" alt=""></a>
+            <a href="#img3">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+    <div class="modal" id="img3">
+        <h3>3/12</h3>
+        <div class="imagen">
+            <a href="#img2">&#60;</a>
+            <a href="#img4"><img src="img/galeria3.jpg" alt=""></a>
+            <a href="#img4">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+    <div class="modal" id="img4">
+        <h3>4/12</h3>
+        <div class="imagen">
+            <a href="#img3">&#60;</a>
+            <a href="#img5"><img src="img/galeria4.jpg" alt=""></a>
+            <a href="#img5">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+    <div class="modal" id="img5">
+        <h3>5/12</h3>
+        <div class="imagen">
+            <a href="#img4">&#60;</a>
+            <a href="#img6"><img src="img/galeria5.jpg" alt=""></a>
+            <a href="#img6">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+    <div class="modal" id="img6">
+        <h3>6/12</h3>
+        <div class="imagen">
+            <a href="#img5">&#60;</a>
+            <a href="#img7"><img src="img/galeria6.jpg" alt=""></a>
+            <a href="#img7">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+    <div class="modal" id="img7">
+        <h3>7/12</h3>
+        <div class="imagen">
+            <a href="#img6">&#60;</a>
+            <a href="#img8"><img src="img/galeria7.jpg" alt=""></a>
+            <a href="#img8">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+    <div class="modal" id="img8">
+        <h3>8/12</h3>
+        <div class="imagen">
+            <a href="#img7">&#60;</a>
+            <a href="#img9"><img src="img/galeria8.jpg" alt=""></a>
+            <a href="#img9">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+    <div class="modal" id="img9">
+        <h3>9/12</h3>
+        <div class="imagen">
+            <a href="#img8">&#60;</a>
+            <a href="#img10"><img src="img/galeria9.jpg" alt=""></a>
+            <a href="#img10">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+    <div class="modal" id="img10">
+        <h3>10/12</h3>
+        <div class="imagen">
+            <a href="#img9">&#60;</a>
+            <a href="#img11"><img src="img/galeria10.jpg" alt=""></a>
+            <a href="#img11">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+    <div class="modal" id="img11">
+        <h3>11/12</h3>
+        <div class="imagen">
+            <a href="#img10">&#60;</a>
+            <a href="#img12"><img src="img/galeria11.jpg" alt=""></a>
+            <a href="#img12">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+    <div class="modal" id="img12">
+        <h3>12/12</h3>
+        <div class="imagen">
+            <a href="#img11">&#60;</a>
+            <a href="#img1"><img src="img/galeria12.jpg" alt=""></a>
+            <a href="#img1">></a>
+        </div>
+        <a class="cerrar" href="#salir"><i class="fas fa-times-circle"></i></a>
+    </div>
+</div>
+</div>
+
+    </div>
+    
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-image">
+                <img src="img/Fondo.png" alt="Logo">
+            </div>
+            <div class="footer-list__container">
+                <ul class="footer-list">
+                    <li class="footer-list__item"><a href="index.html">Inicio</a></li>
+                    <li class="footer-list__item"><a href="historia.html">Historia</a></li>
+                    <li class="footer-list__item"><a href="Colecciones.html">Colecciones</a></li>
+                    <li class="footer-list__item"><a href="antiguas.html">Artículos y publicaciones</a></li>
+                    <li class="footer-list__item"><a href="formulario.html">Hágase socio</a></li>
+                </ul>
+            </div>
+            <div class="footer-social__container">
+                <ul class="footer-social">
+                    <li class="footer-social__item">
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a href="https://www.instagram.com/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a href="https://www.youtube.com/" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            Todos los derechos reservados. &copy;
+        </div>
+    </footer>    
 </body>
+
+
+
+
+
+
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+
 </html>
