@@ -1,6 +1,7 @@
     * { margin:0 ;
     padding:0;
     font-family: 'Antonio', sans-serif;
+    box-sizing: border-box;
 }
 
 /* estilos menu */
@@ -84,10 +85,10 @@
 
 main{background-color: whitesmoke;}
 
-.container{display: grid;
-  grid-template-columns: 60% 40% ;
+/* .grid {display: grid;
+  grid-template-columns: 30% 30% 30%;
 
-}
+} */
 
 h2 {  padding: 10%;
         font-size: 3em;
@@ -110,14 +111,7 @@ p { padding: 4%;
 .monedasg img:hover {filter: opacity(.7);}
 .monedasg {display:flex; justify-content: space-around;}
 
-/* Lo siguiente aplica a romanas.html */
-.controm {display: grid; gap: 10px; height: 100%; width: 100%; 
-    grid-template-areas: 'titulo titulo titulo titulo'
-                        'monedasr monedasr autoridad autoridad';
-                    grid-template-columns: 25% 25% 25% 25%;
-                    grid-template-rows: 10% 70% 20%;}
-
-.titulo, .monedasr, .autoridad {padding: 2%;}
+/*estilos museo.html */ 
 
 
 
@@ -189,6 +183,8 @@ footer{
   margin-bottom: 0;
   padding-bottom: 1rem;
 }
+
+
 
 /* Esto afecta a formulario */
 
