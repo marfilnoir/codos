@@ -63,22 +63,26 @@
 
 
 .titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5em;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  /* color:whitesmoke;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3); */
+  background-color: #222;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 }
 .subtitulos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    color: white;
-    background-color:rgb(24, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: white;
+  background-color:rgb(24, 24, 24);
 }
 
-
+main{background-color: whitesmoke;}
 
 .container{display: grid;
   grid-template-columns: 60% 40% ;
