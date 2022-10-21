@@ -3,6 +3,41 @@
     font-family: 'Antonio', sans-serif;
     
 }
+html {
+  font-size: 16pt;
+}
+
+  @media screen and (max-width: 1680px) {
+
+      html {
+          font-size: 14pt;
+      }
+
+  }
+
+  @media screen and (max-width: 1280px) {
+
+      html {
+          font-size: 12pt;
+      }
+
+  }
+
+  @media screen and (max-width: 736px) {
+
+      html {
+          font-size: 11pt;
+      }
+
+  }
+
+  @media screen and (max-width: 360px) {
+
+      html {
+          font-size: 10pt;
+      }
+
+  }
 
 /* estilos menu */
 .overlay {
@@ -52,27 +87,34 @@
 
 
 .menu {
-    height: 20em;
-    background-image: url("https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/styles/bi_930x697/public/media/image/2022/09/monedas-antiguas-2803683.jpg?itok=XmzLYJxI");
+    height: 2em;
+   
+  }
+
+  nav { background-image: url("https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/styles/bi_930x697/public/media/image/2022/09/monedas-antiguas-2803683.jpg?itok=XmzLYJxI");
     background-repeat:no-repeat;
   background-position:center center;
-  background-size:cover
- 
-  }
+  background-size:cover;
+  padding: 15px;
+}
 
 /* fin estilos menu */
 
+body {
+  background-color: rgba(31, 30, 30, 0.664);}
 
 .titulo {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 4em;
+  font-size: 7em;
   /* color:whitesmoke;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3); */
   background-color: #222;
   color: rgba(0,0,0,0.6);
   text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+  padding: 20px;
+  margin-top: 30px;
 }
 .subtitulos {
   display: flex;
@@ -81,6 +123,7 @@
   font-size: 2em;
   color: white;
   background-color:rgb(24, 24, 24);
+  padding: 20px;
 }
 
 main{background-color: whitesmoke;}
@@ -102,10 +145,13 @@ p { padding: 4%;
 
 .display1 { 
   display:flex;
+  padding: 30px;
   background-color: goldenrod;
   justify-content: space-around;
   height: 100vh;
   box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .display1 > div {
@@ -115,10 +161,42 @@ p { padding: 4%;
   text-align: center;
   width: 30%;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+.over1 {
+  position: relative;
+  width: 50%;
+}
+.over11 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: silver;
+}
+
+.over1:hover .over11 {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .imagenindex {
-  max-width: 200px;
+  max-width: 400px;
+  max-height: 200px;
   height: auto;
   padding-top: 10%;
   display: block;
@@ -126,6 +204,19 @@ p { padding: 4%;
   margin-right: auto;
 }
 
+h3{ display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  color:darkgoldenrod;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+  padding: 20px;
+  margin-top: 10px;
+
+}
+ .display2 {background-color: white;}
 
 /* Lo iguiente aplica a antiguas.html */
 .contenedor-forum {position: relative; padding-bottom: 75%; height: 0; overflow: hidden;}
@@ -136,7 +227,6 @@ p { padding: 4%;
 .monedasg img:hover {filter: opacity(.7);}
 .monedasg {display:flex; justify-content: space-around;}
 
-/*estilos museo.html */ 
 
 
 

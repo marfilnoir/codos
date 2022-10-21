@@ -54,14 +54,16 @@ a{
 }
 
 .menu {
-    height: 4em;
-    width:100%;
-    background-image: url("https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/styles/bi_930x697/public/media/image/2022/09/monedas-antiguas-2803683.jpg?itok=XmzLYJxI");
+    height: 2em;
+   
+  }
+
+  nav { background-image: url("https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/styles/bi_930x697/public/media/image/2022/09/monedas-antiguas-2803683.jpg?itok=XmzLYJxI");
     background-repeat:no-repeat;
   background-position:center center;
-  background-size:cover
- 
-  }
+  background-size:cover;
+  padding: 15px;
+}
 
 /* fin estilos menu */
 
