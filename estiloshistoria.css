@@ -197,65 +197,76 @@ html {
 /* ---FOOTER--- */
 footer{
     background-color:bisque;
-}
-.footer-container{
+  }
+  .footer-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-}
-.footer-image img{
+  }
+  .footer-image img{
     width: 120px;
-
-}
-.footer-list,
-.footer-social{
+  }
+  .footer-list,
+  .footer-social{
     display: flex;
     padding: 0;
-}
-.footer-list__item,
-.footer-social__item{
+  }
+  .footer-list__item,
+  .footer-social__item{
     list-style-type: none;
-}
-.footer-list__item{
+  }
+  .footer-list__item{
     font-size: 1rem;
     padding: 0 1rem;
-}
-.footer-social__item{
+  }
+  .footer-social__item{
     font-size: 1rem;
     padding: 0 0.5rem;
-}
-.footer-list__item a,
-.footer-social__item a{
+  }
+  .footer-list__item a,
+  .footer-social__item a{
     text-decoration: none;
     color: black;
-}
-.footer-list__item:hover{
+  }
+  .footer-list__item:hover{
     transform: translateY(-2px);
     font-weight: bold;
-}
-.fa-facebook:hover{
+  }
+  .fa-facebook:hover{
     color: #4267B2;
     transform: scale(1.5);
-}
-.fa-instagram:hover{
+  }
+  .fa-instagram:hover{
     color: #E1306C;
     transform: scale(1.5);
-}
-.fa-twitter:hover{
+  }
+  .fa-twitter:hover{
     color: #1DA1F2;
     transform: scale(1.5);
-}
-.fa-youtube:hover{
+  }
+  .fa-youtube:hover{
     color: #FF0000;
     transform: scale(1.5);
-}
-.fa-github:hover{
+  }
+  .fa-github:hover{
     color: #474747;
     transform: scale(1.5);
-}
-.footer-copyright{
+  }
+  .footer-copyright{
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 1rem;
-}
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    .footer-container {
+      flex-direction: column;
+  }
+  
+  .footer-list {
+      flex-direction: column;
+      text-align: center;
+      padding: 1rem;
+  }}
