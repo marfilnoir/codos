@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api BCRA</title>
+</head>
+<body>
+  <script>
+    fetch("https://api.estadisticasbcra.com/billetes_y_monedas",{headers{
+        Authorization: "BEARER eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTgwMjE2OTIsInR5cGUiOiJleHRlcm5hbCIsInVzZXIiOiJtYXJmaWwwN0Bob3RtYWlsLmNvbSJ9.l8I0pwxsEz7GEHkVsJAvkoDOyZ11z4EMHU2tTV-T2o04uACf2wD9FmqpKfiWWhnGA_D_-PIUvZYqiHhaGR9BNw" 
+    },})
+    .then((Response)=> Response.json())
+    .then((data)=> {console.log(data)})
+  </script>  
+</body>
+</html>
+
