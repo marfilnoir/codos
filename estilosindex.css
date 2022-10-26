@@ -329,10 +329,12 @@ footer{
             margin-bottom: 45px; background: rgba(0,0,0,0.2); }
 
 .formu__sub {background: rgba(0,0,0,0.7); color: white; padding: 10px 20px; 
-            cursor: pointer; border: none; }
+            cursor: pointer; border: none; text-decoration: none;}
 
 .sequeda {
   margin-top: -100px;
 }
 
-#contform {background-color: white;}
+
+
+/* #contform {background-color: white;} */
